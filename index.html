@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>清言AI | GLM-4-9b</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-dark.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/marked/4.0.2/marked.min.js"></script>
+    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/11.4.0/highlight.min.js" defer></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <div class="model-info">
+                    <div class="model-name">清言AI</div>
+                    <div class="model-version">Powered by GLM-4-9b</div>
+                </div>
+            </div>
+            <button id="new-chat" class="new-chat-btn">
+                <i class="ri-add-line"></i> 新建对话
+            </button>
+            <div class="footer">
+                <span>今天是 <a href="#" id="current-date"></a></span>
+            </div>
+        </div>
+        <div class="main">
+            <div class="header">
+                <h1>清言AI对话</h1>
+            </div>
+            <div class="chat-container" id="chat-container">
+                <div class="welcome-message">
+                    <h2>欢迎使用清言AI</h2>
+                    <p>清言AI现已支持GLM-4-9b模型，请输入您的问题开始对话。</p>
+                </div>
+                <!-- 聊天消息会在这里动态添加 -->
+            </div>
+            <div class="input-container">
+                <textarea id="user-input" placeholder="输入您的问题..." rows="1"></textarea>
+                <button id="send-btn" class="send-btn">
+                    <i class="ri-send-plane-fill"></i>
+                </button>
+            </div>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="ri-sun-line"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
