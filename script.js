@@ -771,14 +771,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const avatarStyle = document.createElement('style');
     avatarStyle.textContent = `
         .logo-icon {
-            background-image: url('https://img.picui.cn/free/2025/03/17/67d8459d88fbf.png') !important;
+            background-image: url('http://chat.ccccocccc.cc/favicon.png') !important;
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
         }
         
         .bot-avatar {
-            background-image: url('https://img.picui.cn/free/2025/03/17/67d8459d88fbf.png') !important;
+            background-image: url('http://chat.ccccocccc.cc/favicon.png') !important;
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
